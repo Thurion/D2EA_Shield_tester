@@ -112,7 +112,9 @@ When you don't fill in a name, the tab name will be the same as the ship (e.g. A
 You can close tabs by right clicking it. However, on Linux or Mac the button might be a different one.
 
 ### Import
-There are two ways to import a loadout: Either via a JSON formatted string or by loading a journal log file.
+There are two ways to import a loadout: Either via a JSON formatted string or by loading a journal log file.\
+I also developed a small and simple [EDMC plugin](https://github.com/Thurion/SLEF-export) to make it easier to copy the loadout of the current ship.
+The plugin copies the loadout as a SLEF formatted JSON into the clipboard. It can be used with any other tool that supports the SLEF format.
 
 #### JSON formatted string
 You can import your ship loadout. This will affect the class of the shield generators you can choose and the number of boosters as well as the export to Coriolis or EDSY.
